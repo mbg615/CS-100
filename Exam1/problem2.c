@@ -1,4 +1,4 @@
-// CS-100 Test 1: file2.c
+// CS-100 Test 1: problem2.c
 // by: Maddox Guthrie
 
 #include <stdio.h>
