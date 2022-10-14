@@ -2,7 +2,6 @@
 // By: Maddox Guthrie
 
 #include <stdio.h>
-#include <string.h>
 #include <regex.h>
 
 int main() {
