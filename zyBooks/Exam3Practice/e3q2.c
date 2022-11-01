@@ -15,6 +15,8 @@ int main (int argc, char **argv) {
     }
     printf("\n");
 
+    free(a); // Added by me
+
     return 0;                                                                     
 }
 
@@ -38,7 +40,7 @@ int verify(int argc, char **argv) {
     return 0;
    } else  if(atoi(argv[2]) <= 0) {
     return 0;
-   } else  if(!(atoi(argv[3]) <= atoi(argv[2]))) {
+   } else  if(atoi(argv[3]) > atoi(argv[2])) {
     return 0;
    } else {
     return 1;
