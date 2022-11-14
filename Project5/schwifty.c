@@ -1,3 +1,6 @@
+// CS-100 Project 5: schwifty.c
+// By: Maddox Guthrie
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
