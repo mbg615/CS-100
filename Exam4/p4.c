@@ -30,6 +30,7 @@ int main(int argc, char ** argv){
         if(minVal < checkVal && checkVal < maxVal + 0.9) printf("%s\n", str);
     }
 
+    fclose(fptr2);
     return 0;
 }
 

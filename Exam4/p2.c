@@ -14,6 +14,8 @@ int main(int argc, char ** argv){
         fscanf(fptr, "%s", str);
         printf("%d. \"%s\" has weight: %d\n", i+1, str, weight(str));
     }
+
+    fclose(fptr);
     return 0;
 }
 

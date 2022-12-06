@@ -31,6 +31,7 @@ int main(int argc, char ** argv){
         if(weight(str) == maxWordWeight) printf("%s", str);
     }
 
+    fclose(fptr2);
     return 0;
 }
 

@@ -33,6 +33,7 @@ int main(int argc, char ** argv){
 
     printf("Standard Deviation: %6.1lf\n", stddev);
 
+    fclose(fptr2);
     return 0;
 }
 
